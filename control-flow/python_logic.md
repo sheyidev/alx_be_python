@@ -4,7 +4,7 @@
 ## Syntax and Examples of Match Case in Python
 Now that you understand the benefits of Match Case statements, let’s delve into their syntax and see them in action with practical examples.
 
-Basic Syntax:
+## Basic Syntax:
 The basic syntax of a Match Case statement follows this structure:
 
 match expression:
@@ -17,9 +17,14 @@ match expression:
         code_block_n
     # Optional: _ (wildcard) for default case
 expression: This is the value you want to match against different patterns.
+
 case pattern: Each case statement defines a pattern to match against the expression.
 code_block: The code block associated with a matching pattern is indented and executed.
-_ (wildcard): An optional _(underscore) can be used as a wildcard pattern to match anything not explicitly covered by other cases. This serves as a default case. ### Matching Specific Values:
+
+
+_ (wildcard): An optional _(underscore) can be used as a wildcard pattern to match anything not explicitly covered by other cases. This serves as a default case.
+
+### Matching Specific Values:
 Let’s see how Match Case simplifies checking for specific values:
 
 day = input("Enter a day of the week (Monday-Sunday): ").lower()
