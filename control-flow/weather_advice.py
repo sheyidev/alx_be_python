@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/bin/python
 
 weather = input(f"What's the weather like today? (sunny/rainy/cold): ")
 
