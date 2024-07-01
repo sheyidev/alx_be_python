@@ -6,7 +6,7 @@
 
 user_task = str(input("Enter your task: "))
 user_priority = str(input("Priority (high/medium/low: )"))
-user_timebound = str(input("Is it time-bound? (yes/no): "))
+user_timebound = str(input("Is it time-bound? (yes/no):"))
 
 match user_priority:
     case "high":
