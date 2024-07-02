@@ -4,18 +4,18 @@
 ## The program will then provide a customized reminder for that task,
 ## demonstrating control flow and loops without relying on data structures to store multiple tasks.
 
-task = input(f"Enter your task: ")
-priority = input(f"Priority (high/medium/low): ")
-time_bound = input(f"Is it time-bound? (yes/no): ")
+task = input("Enter your task: ")
+priority = input("Priority (high/medium/low): ")
+time_bound = input("Is it time-bound? (yes/no): ")
 
 match priority :
     case "high":
         if time_bound == "yes":
-          print("Reminder: {task} is a high priority task that requires immediate attention today!")
+          print(f"Reminder: {task} is a high priority task that requires immediate attention today!")
     case "low":
        if time_bound =="no":
-          print("{task} is a low priority task. Consider completing it when you free time.")
+          print(f"{task} is a low priority task. Consider completing it when you free time.")
     case "medium":
-        print("{task} is a medium priority task.")
+        print(f"{task} is a medium priority task.")
     case _:
       print("no task given.")
