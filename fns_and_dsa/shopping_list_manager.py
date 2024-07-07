@@ -46,10 +46,10 @@ def main():
         elif choice == '3':
             view_list(shopping_list)
         elif choice == '4':
-            print("Exiting the Shopping List Manager. Goodbye!")
+            print(f"Exiting the Shopping List Manager. Goodbye!")
             break
         else:
-            print("Invalid choice. Please select a valid option.")
+            print(f"Invalid choice. Please select a valid option.")
 
 #if __name__ == "__main__":
  #   main()
