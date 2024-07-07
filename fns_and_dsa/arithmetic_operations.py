@@ -7,19 +7,19 @@ def perform_operation(num1, num2, operation):
     match operation:
         case '+':
             result = num1 + num2
-            print(f"Result: {result}")
+            return(f"Result: {result}")
         case "-":
             result = num1 - num2
-            print(f"Result: {result}")
+            return(f"Result: {result}")
         case "*":
             result = num1 * num2
-            print(f"Result: {result}")
+            return(f"Result: {result}")
         case "/":
             result = num1 / num2
             if num1 == 0:
                 print("Cannot divide by zero")
             else:
-                print(f"Result: {result}")
+                return(f"Result: {result}")
         case _:
             print("Invalid day entered.")
     
