@@ -1,25 +1,27 @@
+# arithmetic_operations.py
+
 def perform_operation(num1, num2, operation):
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    operation = input("Enter the operation (add, subtract, multiply, divide): ")
+    """
+    Perform a basic arithmetic operation.
 
+    Parameters:
+    num1 (float): The first number.
+    num2 (float): The second number.
+    operation (str): The operation to perform. Accepts 'add', 'subtract', 'multiply', or 'divide'.
 
-    match operation:
-        case '+':
-            result = num1 + num2
-            return(f"Result: {result}")
-        case "-":
-            result = num1 - num2
-            return(f"Result: {result}")
-        case "*":
-            result = num1 * num2
-            return(f"Result: {result}")
-        case "/":
-            result = num1 / num2
-            if num1 == 0:
-                print("Cannot divide by zero")
-            else:
-                return(f"Result: {result}")
-        case _:
-            print("Invalid day entered.")
-    
+    Returns:
+    float or str: The result of the arithmetic operation, or a message for division by zero.
+    """
+    if operation == 'add':
+        return num1 + num2
+    elif operation == 'subtract':
+        return num1 - num2
+    elif operation == 'multiply':
+        return num1 * num2
+    elif operation == 'divide':
+        if num2 != 0:
+            return num1 / num2
+        else:
+            return "Error: Division by zero"
+    else:
+        return "Error: Invalid operation"
