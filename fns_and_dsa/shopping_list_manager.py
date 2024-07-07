@@ -1,7 +1,3 @@
-## Objective: 
-# Utilize Python lists to create a simple shopping list manager 
-# that allows users to add items, view the current list, and remove items.
-
 # shopping_list_manager.py
 
 def display_menu():
@@ -46,10 +42,10 @@ def main():
         elif choice == '3':
             view_list(shopping_list)
         elif choice == '4':
-            print(f"Exiting the Shopping List Manager. Goodbye!")
+            print("Exiting the Shopping List Manager. Goodbye!")
             break
         else:
-            print(f"Invalid choice. Please select a valid option.")
+            print("Invalid choice. Please select a valid option.")
 
-#if __name__ == "__main__":
- #   main()
+if __name__ == "__main__":
+    main()
