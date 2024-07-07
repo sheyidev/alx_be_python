@@ -28,24 +28,3 @@ def view_list(shopping_list):
         for item in shopping_list:
             print(f"- {item}")
 
-def main():
-    shopping_list = []
-
-    while True:
-        display_menu()
-        choice = input("Choose an option (1-4): ").strip()
-
-        if choice == '1':
-            add_item(shopping_list)
-        elif choice == '2':
-            remove_item(shopping_list)
-        elif choice == '3':
-            view_list(shopping_list)
-        elif choice == '4':
-            print("Exiting the Shopping List Manager. Goodbye!")
-            break
-        else:
-            print("Invalid choice. Please select a valid option.")
-
-if __name__ == "__main__":
-    main()
