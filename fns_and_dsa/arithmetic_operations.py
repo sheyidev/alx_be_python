@@ -16,7 +16,7 @@ def perform_operation(num1, num2, operation):
             print(f"Result: {result}")
         case "/":
             result = num1 / num2
-            if num2 == 0:
+            if num1 == 0:
                 print("Cannot divide by zero")
             else:
                 print(f"Result: {result}")
