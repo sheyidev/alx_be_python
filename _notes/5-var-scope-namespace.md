@@ -42,7 +42,7 @@ Variable scope defines the accessibility of a variable within your code. Differe
 ```
 
 ## Example of variable scope
-```md
+```python
 count = 10  # Global variable
 
 def outer_function():
