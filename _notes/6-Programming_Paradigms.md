@@ -1,14 +1,17 @@
 ## Fundamentals of OOP in Python
 ```md
 
-video link ======= https://www.youtube.com/watch?v=5JA5VmWfjC0&t=47s
+## video link ======= https://www.youtube.com/watch?v=5JA5VmWfjC0&t=47s
+
 This page introduces Object-Oriented Programming (OOP) concepts and their implementation in Python. 
 
 
 You’ll explore the benefits of OOP and how it structures code for better maintainability and re-usability.
 
 ## Concept Overview
+
 Topics:
+
 Introduction to OOP Concepts
 Getting Started with Python Classes and Objects
 
@@ -48,12 +51,27 @@ Classes: A class is like a blueprint or template for creating objects. It define
 
 Encapsulation means bundling data (attributes) and the methods (functions) that operate on that data together within a class. It helps keep related things together and hides the inner workings of an object from the outside, showing only what’s necessary.
 
+
+`https://www.youtube.com/watch?v=pTB0EiLXUC8`
+
+- In Encapsulation, your obj will start having fewer and fewer parameters 
+- In Encapsulation, your variables and properties are exclusive to that object.
+
 ## Inheritance:
 
 Inheritance is like passing down traits from parent to child. It allows a new class (child) to inherit properties and behaviors from an existing class (parent), promoting code re-usability.
+- Element reducdant code 
+- element.render()
 
 ## Polymorphism: 
 Polymorphism means many forms. It allows objects to take on different forms or behaviors based on the context or the class they belong to.
+
+## Abstraction
+Hide some properties and methods from the outside. Making the interface of that object simpler.
+- Simpler interface
+- reduce the impact of change because of few properties and methos 
+- - 
+
 
 ```
 
@@ -98,7 +116,7 @@ class Car:
 ## Sample Question
 
 ```python
-You can create object (instances) of the Car class and access its methods and attributes as follows:
+# You can create object (instances) of the Car class and access its methods and attributes as follows:
 
 my_car = Car("Toyota", "Camry", 2020)
 print(my_car.get_descriptive_name())  # Output: 2020 Toyota Camry

@@ -1,4 +1,6 @@
 ## Errors and Exception Handling in Python
+
+#### link:
 https://www.youtube.com/watch?v=NIWwJbo-9_8
 ```md
 ## Errors and Exception Handling in Python 
@@ -9,7 +11,7 @@ This page equips you with the knowledge to identify, handle, and prevent errors 
 ## Learning Objectives
  Differentiate between syntax errors and exceptions.
 - Identify common Python exceptions and their causes.
-- Utilize try, except,else, and finally blocks for exception handling.
+- Utilize try, except, else, and finally blocks for exception handling.
 - Raise exceptions with raise and create custom exceptions.
 - Write code that anticipates and gracefully handles potential errors.
 
@@ -42,8 +44,11 @@ Typos in variable or function names
 - NameError: Occurs when a variable or function is used before it’s defined.
 
 - TypeError: Raised when an operation is attempted on incompatible data types.
+
 - IndexError: Thrown when trying to access an element outside the list or sequence’s index range.
+
 - ZeroDivisionError: Occurs when attempting to divide by zero.
+
 - ValueError: Indicates an inappropriate value passed to a function or operation.
 
 
