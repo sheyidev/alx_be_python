@@ -9,10 +9,11 @@ def safe_divide(numerator, denominator):
         
         else:
             result = numerator /denominator
-            print (f"The result of the division is {result:.1f}") 
-    except:
+            return f"The result of the division is {result:.1f}"
+    except ValueError:
         print("Error: Please enter numeric values only.")
-
+    except ZeroDivisionError as e:
+        return str(e)
 
     """
         if denominator == 0:
