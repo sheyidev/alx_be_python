@@ -8,7 +8,7 @@ class TestAdd(unittest.TestCase):
     def test_addition(self):
         self.calc = SimpleCalculator()
         result = self.calc.add(2, 4)
-        self.assertEqual(result, 6)
+        self.assertEqual(self.calc.add(2, 4), 6)
 
 if __name__ == "__main__":
     unittest.main()
