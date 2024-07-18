@@ -14,7 +14,6 @@ class BankAccount:
         else:
             print("You cannot alter your account balance")
             #return False
-
-      
     def display_balance(self):
-        print(f"Your current account balance is {self.account_balance}")
+        current_balance = self.account_balance
+        print(f"Current Balance: ${current_balance}")
