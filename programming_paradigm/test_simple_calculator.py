@@ -6,8 +6,8 @@ from simple_calculator import SimpleCalculator
 
 class TestAdd(unittest.TestCase):
     def test_addition(self):
-        result = SimpleCalculator()
-        result = result.add(2, 4)
+        self.calc = SimpleCalculator()
+        result = self.calc.add(2, 4)
         self.assertEqual(result, 6)
 
 if __name__ == "__main__":
