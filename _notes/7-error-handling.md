@@ -52,8 +52,6 @@ Typos in variable or function names
 - ValueError: Indicates an inappropriate value passed to a function or operation.
 
 
-
-
 ```
 
 ## Mastering Exception Handling
@@ -116,6 +114,9 @@ By deriving custom exceptions from the base Exception class in Python, you can c
 
 - Optionally, you can add custom attributes or methods to your exception class based on your requirements.
 
+```
+
+```python
 ## example 
 class OutOfStockError(Exception):
     """Custom exception for handling out-of-stock items."""
@@ -133,7 +134,6 @@ product_inventory = {
     "orange": 0,  # Out of stock
     "grapes": 3
 }
-
 ```
 
 ## Break down
@@ -142,9 +142,15 @@ product_inventory = {
 
 ## Custom Exception OutOfStockError:
 
-We define a custom exception class OutOfStockError that inherits from the base Exception class. This custom exception is designed to handle out-of-stock items.
+We define a custom exception class OutOfStockError that inherits from the base Exception class. 
+
+This custom exception is designed to handle out-of-stock items.
+
 The __init__ method initializes the exception with the name of the out-of-stock item.
+
 The __str__ method specifies the error message to be displayed when the exception is raised.
+
+
 ## Sample Product Inventory:
 
 We have a dictionary product_inventory that represents the available quantity of various items in our inventory.
@@ -180,6 +186,9 @@ except OutOfStockError as e:
 
 
 # We use a try-except block to handle exceptions that may occur during the purchase process.
+
 # We attempt to purchase items like “apple”, “orange”, and “watermelon” with different quantities.
+
 # If an OutOfStockError is raised (due to an out-of-stock item), we catch it and print the custom error message using print(e).
+
 ```
