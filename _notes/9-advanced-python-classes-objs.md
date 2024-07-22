@@ -24,14 +24,12 @@ Inheritance Basics
 Composition as an Alternative
 
 
-
-
 ## Learning Objectives
-Understand the fundamental principles of Python classes and object-oriented programming (OOP).
+- Understand the fundamental principles of Python classes and object-oriented programming (OOP).
 
-Effectively use constructors, destructors, and magic methods to define object behavior and properties.
+- Effectively use constructors, destructors, and magic methods to define object behavior and properties.
 
-Implement inheritance to create class hierarchies and extend functionalities.
+- Implement inheritance to create class hierarchies and extend functionalities.
 Apply composition to build complex objects from simpler ones
 ```
 ## Introduction
@@ -61,26 +59,32 @@ print(f"Point coordinates: ({point.x}, {point.y})")  # Output: Point coordinates
 
 ## Let’s break down the provided code:
 
-### Class Definition (Point Class):
+## Class Definition (Point Class):
 
 We define a class named Point using the class keyword. Classes are like blueprints for creating objects in Python. Inside the class, we have a special method called __init__, which is a constructor method.
+
 
 It is automatically called when we create a new object of the class
 The __init__ method takes parameters x and y along with self.
 
+
  self represents the instance of the class (the object itself) and is used to access variables and methods within the class.
 Constructor Method (__init__):
 
+
 The __init__ method initializes the object with initial values for its attributes (x and y in this case).
+
 
 Inside __init__, we set the attributes self.x and self.y with the values passed during object creation (Point(3, 5)).
 Creating an Object (point Object):
+
 
 We create an object named point of the Point class by calling Point(3, 5). This invokes the __init__ method with x=3 and y=5.
 
 
 The point object now has attributes x and y initialized to 3 and 5, respectively.
 Accessing Object Attributes:
+
 
 We use dot notation (point.x and point.y) to access the attributes of the point object.
 
@@ -95,9 +99,11 @@ Finally, we print the coordinates of the point using print(f"Point coordinates: 
 Destructors (__del__):
 When you create an object in Python, it occupies memory to store its data and code. Objects are automatically destroyed (garbage collected) by Python when they are no longer in use or when the program exits.
 
+
 The __del__ Method:
 
 The __del__ method is a special method in Python classes that gets called when an object is about to be destroyed (garbage collected). You can define this method in your class to perform cleanup tasks or release resources held by the object before it is destroyed.
+
 
 Let’s consider an example where we want to close a file automatically when the object representing that file is no longer needed.
 
