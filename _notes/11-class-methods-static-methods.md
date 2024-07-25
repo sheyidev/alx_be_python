@@ -139,3 +139,17 @@ MathUtils.multiply(5, 3) calls the static method multiply with arguments 5 and 3
 In the provided code, MathUtils acts as a utility class for basic arithmetic operations, demonstrating the use of static methods for encapsulating related functionality within a class without the need for instance variables or methods.
 
 ```
+
+## Example from youtube 
+link1 - https://www.youtube.com/watch?v=upmOAPk2cK8&t=451s
+
+link2 - 
+
+
+![static_method](https://github.com/sheyijojo/Docker_CERT/blob/main/_assets/static.png?raw=true)
+
+![static_method](https://github.com/sheyijojo/Docker_CERT/blob/main/_assets/replica_set_demo.png?raw=true)
+```md
+
+
+```
