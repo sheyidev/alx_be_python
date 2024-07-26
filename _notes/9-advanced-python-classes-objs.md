@@ -218,3 +218,27 @@ car.start()  # Output: Engine starting...
 
 
 ```
+## More on Composition
+
+```md
+## A vivid example of composition
+One class is dependent on another class for its attributes. 
+
+```
+
+```python
+class Point:
+   def __init__(self, x, y):
+         self.x = x
+         self.y = y
+class Shape:
+    def __init__(self, points):
+         self.points = points
+
+triangle = Shape(
+         Point(0,0),
+         Point(5, 5)
+         Point(2, 4)
+)
+```
+
