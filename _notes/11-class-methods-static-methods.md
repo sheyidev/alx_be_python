@@ -124,6 +124,8 @@ print(MathUtils.multiply(5, 3))  # Output: 15
 ```
 
 ```md
+
+## explanation
 This code defines a class MathUtils with two static methods:add and multiply. Static Methods:
 
 add(a, b) method takes two arguments a and b and returns their sum.
