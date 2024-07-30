@@ -135,17 +135,3 @@ SELECT FirstName, LastName, Email FROM Employees;
 ## This statement retrieves only the FirstName, LastName, and Email columns from the “Employees” table.
 
 ```
-## Download MySQL
-![mysql_installation](https://github.com/sheyidev/alx_be_python/blob/main/_assets/msql-1.png?raw=true)
-
-## Install MySQL
-![mysql_2](https://github.com/sheyidev/alx_be_python/blob/main/_assets/msql-2.png?raw=true)
-
-## mysql 3
-
-## Install MySQL
-![mysql_3](https://github.com/sheyidev/alx_be_python/blob/main/_assets/mysql-3.png?raw=true)
-
-
-## Install MySQL
-![mysql_4](https://github.com/sheyidev/alx_be_python/blob/main/_assets/mysql-4.png?raw=true)
