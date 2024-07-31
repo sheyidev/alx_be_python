@@ -16,17 +16,19 @@ Topics
 ## Learning Objectives
 - Understand DQL (Data Query Language) and its role in SQL.
 - Master sorting and filtering data using ORDER BY and WHERE clauses.
-- Explore constructing complex queries and subqueries for - advanced data retrieval and manipulation.
+- Explore constructing complex queries and subqueries for advanced data retrieval and manipulation.
 - Get introduced to Data Control Language (DCL)
 ```
-
+## DQL (Data Query Language)
 ```md
 ## DQL (Data Query Language)
 DQL statements are used to retrieve data from database tables, allowing you to query and filter data based on specific conditions. 
 
 DQL provides a way to select and retrieve data from one or more tables in a database, enabling you to access and analyze the stored information. Here are common commands:
 
-- SELECT: Used to retrieve data from one or more tables. Example: SELECT * FROM Customers; (selects all columns and rows from the Customers table)
+- SELECT: Used to retrieve data from one or more tables. 
+
+Example: SELECT * FROM Customers; (selects all columns and rows from the Customers table)
 
 - WHERE: Used to filter rows based on specified conditions. Example: SELECT * FROM Customers WHERE City = 'New York';
 
