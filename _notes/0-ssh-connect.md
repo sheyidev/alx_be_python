@@ -90,6 +90,8 @@ Host sheyidev
    When cloning a new repository, use the `github-another` alias:
    ```sh
    git clone git@github-another:username/repository.git
+
+   git clone git@sheyidev:sheyidev/
    ```
 
 ### Summary
